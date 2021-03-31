@@ -1,0 +1,12 @@
+
+public class Eg {
+	public static void main(String[] args) {
+	int N = 5;
+	int i = N;
+	int result = 1;
+	for(i=N;i>=1;i--) {
+		result *= i;
+		System.out.printf("5!=%d*",i);
+		}
+	}
+}
